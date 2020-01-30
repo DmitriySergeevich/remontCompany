@@ -1,0 +1,13 @@
+ [
+    {
+        "name": "Дрель",
+        "price": "120",
+        "image": "drel.png"
+    },
+    {
+        "name": "Молоток",
+        "price": "20",
+        "image": "molot.png"
+    }
+]
+
