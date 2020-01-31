@@ -20,6 +20,14 @@ export default new Router({
     {
         path: '/about',
         component: () => import('./views/About.vue')
+    },
+    {
+        path: '/services',
+        component: () => import('./views/Services.vue')
+    },
+    {
+        path: '/contact',
+        component: () => import('./views/Contact.vue')
     }
 
     ]

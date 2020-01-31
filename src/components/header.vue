@@ -27,7 +27,7 @@ export default {
   position: relative;
 
   &_main {
-    width: 75%;
+    width: 90%;
     height: 100%;
     display: block;
 
@@ -66,8 +66,7 @@ export default {
         font-size: 30px;
         font-family: Verdana;
         font-stretch: expanded;
-        padding-top: 15px;
-        padding-right: 3px;
+        padding: 10px 15px;
       }
     }
   }
