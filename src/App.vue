@@ -14,7 +14,7 @@
 
 import Head from "./components/header.vue";
 import Foot from "./components/footer.vue";
-import { menuItem, primers, services } from "./assets/menuItem.js";
+import { menuItem, primers, services } from "./assets/data.js";
 
 export default {
   name: "app",
