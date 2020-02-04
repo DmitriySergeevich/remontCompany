@@ -1,0 +1,24 @@
+@mixin black-white-grad{
+    background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 33%,
+    rgb(61, 82, 104) 66%,
+    rgb(76, 91, 114)
+  );
+}
+
+@mixin white-gold-grad {
+  background: linear-gradient(180deg,
+          rgb(223, 223, 167) 33%,
+          rgb(205, 221, 125) 66%,
+          rgb(173, 173, 78));
+}
+
+@mixin  white-black-grad {
+  background: linear-gradient(
+    180deg,
+    rgb(235, 232, 232) 33%,
+    rgb(171, 174, 177) 66%,
+    rgb(112, 113, 114)
+  );
+}

@@ -1,0 +1,62 @@
+.service {
+  width: 900px;
+  height: 350px;
+  border: 2px solid;
+  margin: 10px;
+  margin-bottom: 80px;
+  display: flex;
+
+  &_photo {
+    img {
+      height: 350px;
+      width: 420px;
+      position: relative;
+      left: 40px;
+      top: 20px;
+    }
+  }
+
+  &_description {
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    padding-top: 30px;
+
+    &_whiteBlock {
+      width: 400px;
+      height: 290px;
+      background-color: white;
+      position: absolute;
+      z-index: -1;
+      top: 20px;
+      left: -10px;
+    }
+
+    p {
+      text-align: right;
+      transform: rotateZ(3deg);
+      font-weight: 900;
+      width: 380px;
+      font-size: 19px;
+      @include white-gold-grad;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+      @include black-white-grad;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    ul {
+      padding: 25px;
+
+      li {
+        padding: 5px 0;
+        font-weight: 600;
+      }
+    }
+  }
+}

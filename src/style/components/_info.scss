@@ -1,0 +1,29 @@
+.info {
+  width: 300px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.514);
+  display: flex;
+  justify-content: center;
+
+  &_content {
+    * {
+      margin: 15px 0px 15px 10px;
+    }
+
+    h3,
+    h4 {
+      @include white-black-grad;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h4 {
+      margin-left: 20px;
+      font-size: 17px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
