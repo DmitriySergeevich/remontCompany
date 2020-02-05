@@ -1,27 +1,23 @@
 <template>
   <div class="contacts">
-    <div class="contacts_info">
-      <span class="contacts_info_title">Наш адрес: "Улица Пушкина д.10"</span>
-    </div>
+    <div class="contacts_block1"></div>
+    <div class="contacts_block2"></div>
     <iframe
+      class="contacts_map"
       src="https://yandex.ru/map-widget/v1/-/CKQY5L-0"
-      width="560"
-      height="400"
       frameborder="1"
       allowfullscreen="true"
     ></iframe>
+    <Info
+    class = "contacts_info"/>
   </div>
 </template>
 
 <script>
-export default {};
-</script>
-
-<style lang="scss">
-.info{
-
-  &_title{
-    font-size: 34px;
+import Info from "@/components/info.vue";
+export default {
+  components: {
+    Info
   }
-}
-</style>
+};
+</script>

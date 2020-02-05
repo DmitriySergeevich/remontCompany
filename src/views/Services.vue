@@ -1,13 +1,13 @@
 <template>
   <div class="services">
     <div class="services_bgcolor"></div>
-    <div class="services_block1"></div>
+    <div class="services_block1">
     <Service
       class="services_item"
       v-for="service in servicesItem"
       :key="service"
       :service="service"
-    />
+    /></div>
   </div>
 </template>
 

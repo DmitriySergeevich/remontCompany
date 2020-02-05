@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+  margin-top: 80px;
+  height: 425px;
+
+  &_map {
+    width: 560px;
+    height: 400px;
+  }
+
+  &_info {
+    margin: 20px 0 0 20px;
+  }
+
+  &_block1,
+  &_block2 {
+    border: 2px solid;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &_block1 {
+    left: 61px;
+    top: 69px;
+    width: 728px;
+    height: 570px;
+  }
+
+  &_block2 {
+    left: 730px;
+    top: 200px;
+    width: 333px;
+    height: 255px;
+  }
+
+}
