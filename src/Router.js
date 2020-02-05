@@ -14,8 +14,8 @@ export default new Router({
         component: () => import('./views/Work.vue')
     },
     {
-        path: '/price',
-        component: () => import('./views/Price.vue')
+        path: '/new',
+        component: () => import('./views/New.vue')
     }, 
     {
         path: '/about',

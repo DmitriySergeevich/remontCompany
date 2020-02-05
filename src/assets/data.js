@@ -1,7 +1,7 @@
 export const menuItem = [
     { name: "Наши услуги", path: "/services" },
     { name: "Портфолио", path: "/work" },
-    { name: "Цены", path: "/price" },
+    { name: "Новинки", path: "/new" },
     { name: "О компании", path: "/about" },
     { name: "Контакты", path: "/contact" }
 ];
