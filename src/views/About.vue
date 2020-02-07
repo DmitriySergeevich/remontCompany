@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <h2>ABOUT</h2>
+  <div class="about">
+    <ul>
+      <router-link tag="li" v-for="car in 5" :to="'/car/' + car" :key="car">
+        <a>Car {{car}}</a>
+      </router-link>
+    </ul>
   </div>
 </template>
 
@@ -9,5 +13,4 @@ export default {};
 </script>
 
 <style lang="scss">
-
 </style>

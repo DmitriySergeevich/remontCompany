@@ -16,6 +16,9 @@
         <li v-for="desc in service.description" :key="desc">{{desc}}</li>
       </ul>
     </div>
+    <router-link :to="'/car/' + service.name" :service="service">
+      <a>{{service.name}}</a>
+    </router-link>
   </div>
 </template>
 
