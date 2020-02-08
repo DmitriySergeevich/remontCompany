@@ -30,8 +30,10 @@ export default new Router({
         component: () => import('./views/Contact.vue')
     },
     {
-        path: '/car/:id',
-        component: () => import('./views/car.vue')
+        path: '/services/:id',
+        component: () => import('./views/Services-item.vue'),
+        props: true,
+        name:"services"
     }
 
     ]

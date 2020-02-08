@@ -50,8 +50,8 @@ export default {
   padding: 0;
 }
 .main {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   width: 100%;
 }
 </style>
