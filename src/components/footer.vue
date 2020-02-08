@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="footer_container">
       <div class="footer_info">
-        <div class="footer_info_adr">Наш адрес г.Рязань ул.Пушкина д.11</div>
+        <div class="footer_info_adr">Наш адрес г.Рязань ул.Пушкина д.10</div>
         <div class="footer_info_e-mail">e-mail house@mail.com</div>
       </div>
       <div class="footer_conect">
